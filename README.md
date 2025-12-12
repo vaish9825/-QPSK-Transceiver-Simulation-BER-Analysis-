@@ -37,13 +37,3 @@ To run this simulation, you need:
 * **MATLAB** (Tested on R2025a/R2025b based on file versions).
 * **Simulink**.
 * **Communications Toolbox** (Required for QPSK Modulator/Demodulator and AWGN blocks).
-
-## 💻 How to Run
-
-1.  Clone this repository or download the files.
-2.  Open **MATLAB**.
-3.  Navigate to the folder containing the files.
-4.  Double-click `qpsk.slx` to open the model.
-5.  Click the **Run** button in Simulink.
-6.  The constellation diagrams will appear automatically.
-7.  The BER data is exported to the workspace (variable `ber`) for further plotting/analysis.
